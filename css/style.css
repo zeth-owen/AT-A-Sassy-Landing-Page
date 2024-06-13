@@ -1,0 +1,174 @@
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.8);
+}
+
+.btn-primary {
+  background-color: #001c47;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #a2d0fc;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFC300;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  line-height: 1;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero .box {
+  background-color: #000814;
+  color: white;
+}
+.hero .box nav {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+.hero .box nav ul {
+  display: flex;
+  color: white;
+  width: 60%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.hero .box nav ul li a {
+  color: white;
+}
+.hero .box .hero-content {
+  display: flex;
+  align-items: center;
+}
+.hero .box .hero-content div {
+  width: 50%;
+  /* h1 {
+
+   }
+
+   p {
+
+
+   } */
+}
+.hero .box .hero-content img {
+  width: 50%;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */

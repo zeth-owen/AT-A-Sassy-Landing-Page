@@ -1,3 +1,6 @@
+@import 'config';
+@import 'utilities';
+@import 'btnConfig';
 
 * {
   box-sizing: border-box;
@@ -9,6 +12,7 @@ body {
   background-color: $light-color;
   font-family: $font-stack;
   line-height: 1;
+  color:white;
 }
 
 img {
@@ -20,14 +24,51 @@ a {
 }
 
 .hero {
-  // This is where the bulk of the SCSS styling needs to be done
+  .box {
+    @include set-bg($primary-color);
+    nav {
+      display: flex;
+      gap: 3rem;
+      margin-top: 1rem;
+      //h1 {
+        // Add your styles here
+      //}
 
-  // Take a look at the other files we've built already. How can they be useful here?
+      ul {
+        display: flex;
+        color: white;
+        width: 60%;
+        list-style-type: none;
+        justify-content: space-between;
+        li {
+          a {
+            color:white;
+            
+          }
+        }
+      }
+    }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    div {
+      width:50%;
+     /* h1 {
+       
+      }
 
-  // Also, take time to review the features of SCSS we've already covered:
-  // 1. $variables
-  // 2. nesting (dont forget about the ampersand (&) parent selector!)
-  // 3. At-Rules
+      p {
+       
+    
+      } */ 
+
+    }
+      img {
+        width: 50%;
+      }
+    }
+  }
 }
 
 // This code is related to some of the aspects of SCSS we have yet to cover.
@@ -48,4 +89,5 @@ $spaceamounts: (1,2,3,4,5);
   .py-#{$space} {
     padding: #{$space}rem 0;
   }
+
 }
